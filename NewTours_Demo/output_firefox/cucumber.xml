@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="122.376056">
+<testcase classname="To Login New Tours Company Webpage" name="Successful Login" time="49.859547">
+<system-out><![CDATA[Given I am on the Homepage page on URL "http://newtours.demoaut.com"........passed
+Then I should see "Welcome: Mercury Tours"  as page title...................passed
+When I enter Username as "mercury"..........................................passed
+And I enter Password as "mercury"...........................................passed
+And I click on the Login button.............................................passed
+Then I should see the title as "Find a Flight: Mercury Tours:"..............passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test Ticket Booking for New Tours Company" name="Successful Flight Booking" time="39.784326">
+<system-out><![CDATA[Given I navigate to the home page...........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+When I select number of passengers "1"......................................passed
+And I select Departing From as "London".....................................passed
+And I select Departure Month "April" and Day as "20"........................passed
+And I select Arriving In as "Paris".........................................passed
+And I select Arrival Month "April" and Day as "30"..........................passed
+Then I click on the find Flights Continue button............................passed
+Then I click on the reserve Flights Continue button.........................passed
+And I enter FirstName as "Customer" and LastName as "One"...................passed
+And I enter Card Number as "1000"...........................................passed
+And I click on the Secure Purchase button...................................passed
+Then I should see Flight confirmation page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Test Ticket Booking for New Tours Company" name="Successful Flight Booking 2" time="32.732183">
+<system-out><![CDATA[Given I navigate to the home page...........................................passed
+When I submit username and password.........................................passed
+Then I should be logged in..................................................passed
+When I select number of passengers "1"......................................passed
+And I select Departing From as "Zurich".....................................passed
+And I select Departure Month "May" and Day as "20"..........................passed
+And I select Arriving In as "Portland"......................................passed
+And I select Arrival Month "May" and Day as "30"............................passed
+Then I click on the find Flights Continue button............................passed
+Then I click on the reserve Flights Continue button.........................passed
+And I enter FirstName as "Customer" and LastName as "Two"...................passed
+And I enter Card Number as "1001"...........................................passed
+And I click on the Secure Purchase button...................................passed
+Then I should see Flight confirmation page..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

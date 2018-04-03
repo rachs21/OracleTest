@@ -1,0 +1,17 @@
+2018-04-03 18:33:46 INFO  Hooks:75 - Opening Browser....ie
+2018-04-03 18:33:48 INFO  Login:55 - ## TEST LOGIN FUNCTIONALITY ##
+2018-04-03 18:33:50 INFO  TestBase:141 - Entered
+2018-04-03 18:34:05 INFO  Hooks:75 - Opening Browser....ie
+2018-04-03 18:34:05 INFO  BookFlight:55 - ## TEST BOOK FLIGHTS ##
+2018-04-03 18:34:08 INFO  TestBase:141 - Entered
+2018-04-03 18:34:08 INFO  BookFlight:79 - Entered username, password and clicked on login button
+2018-04-03 18:34:23 INFO  TestBase:141 - Entered
+2018-04-03 18:34:26 INFO  TestBase:141 - Entered
+2018-04-03 18:34:32 INFO  TestBase:141 - Entered
+2018-04-03 18:34:38 INFO  Hooks:75 - Opening Browser....ie
+2018-04-03 18:34:38 INFO  BookFlight:55 - ## TEST BOOK FLIGHTS ##
+2018-04-03 18:34:42 INFO  TestBase:141 - Entered
+2018-04-03 18:34:42 INFO  BookFlight:79 - Entered username, password and clicked on login button
+2018-04-03 18:34:57 INFO  TestBase:141 - Entered
+2018-04-03 18:35:00 INFO  TestBase:141 - Entered
+2018-04-03 18:35:06 INFO  TestBase:141 - Entered

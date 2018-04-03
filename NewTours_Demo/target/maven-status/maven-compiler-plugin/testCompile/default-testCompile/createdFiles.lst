@@ -1,0 +1,4 @@
+com\newtours\framework\stepdefs\Login.class
+com\newtours\framework\TestRunner.class
+com\newtours\framework\stepdefs\BookFlight.class
+com\newtours\framework\stepdefs\Hooks.class
